@@ -14,7 +14,7 @@ const Players = ({ playersPromise, setCoin, coin }) => {
     <div className="container mx-auto my-[60px]">
       <div className="flex justify-between gap-4 items-center mb-[20px]">
         {selectedType === "available" ? (
-          <h2 className="font-bold text-3xl">Available players list</h2>
+          <h2 className="font-bold text-3xl">Git players list</h2>
         ) : (
           <h2 className="font-bold text-3xl">
             Selected Players ({selectedPlayers.length}/{players.length})
